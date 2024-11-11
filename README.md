@@ -22,6 +22,7 @@ with the following characteristics:
    3. Running mypy
    4. Running test folder
    5. Running QA (bandit, flake8, mypy)
+   6. Generate documentation
 5. Configure flake8, bandit and mypy on pyproject.toml 
 6. Add License (always MIT)
 7. Add Contributing file
@@ -31,5 +32,13 @@ with the following characteristics:
 11. Create a git repository and creates an initial commit based on the default
     files that are included
 12. Add an empty conftest.py
- 
+13. Add basic conf.py, index and makefiles to generate documentation
+
+
+> [!IMPORTANT] 
+> This is only intended to be used on Linux due to the pycharm paths being used
+
+> [!IMPORTANT] 
+> This project will overwrite poetry configuration virtualenvs.in-project to **True** in order to generate a local
+> virtual environment called .venv in the root folder of the project
 
