@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_short_description}}"
+authors = ["hkxs <lalvarezf25@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+flake8 = "^7.1.1"
+bandit = "^1.7.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
