@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '{{cookiecutter.project_name}}'
+project = '{{cookiecutter.project_name | title | replace("_", " ")}}'
 copyright = '2024, Hkxs'
 author = 'Hkxs'
 release = '0.1.0'

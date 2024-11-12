@@ -1,4 +1,4 @@
-# Contributing to *{{cookiecutter.project_name}}*
+# Contributing to **{{cookiecutter.project_name | title | replace("_", " ")}}**
 
 Thank you for your interest in contributing to *LPC Vocoder*! We welcome
 contributions from the community and appreciate your help in improving this

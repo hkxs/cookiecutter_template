@@ -1,5 +1,5 @@
 ===========
-{{cookiecutter.project_name}}
+{{cookiecutter.project_name | title | replace("_", " ")}}
 ===========
 
 Introduction to the project
